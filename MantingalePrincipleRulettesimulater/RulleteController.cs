@@ -17,7 +17,6 @@ namespace MantingalePrincipleRulettesimulater
 
 
 
-
         public bool betEven(bool isbettingeven)
         {
 

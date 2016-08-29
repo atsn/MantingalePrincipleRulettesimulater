@@ -22,32 +22,24 @@ namespace MantingalePrincipleRulettesimulater
 
             //metode betcash
 
-        public void betCash()
+        public void betCash(int amount, bool bettingoneven )
         {
-            
+           
 
-
+            return 
         }
 
-        //metode GambleMoney
-
-        public void GambleMoney()
-        {
-            
-        }
+        
 
         //metode recievecash
 
         public void recievecash()
         {
           
-
             
         }
 
-        
-
-
+       
     }
 
 
