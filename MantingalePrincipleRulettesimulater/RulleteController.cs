@@ -24,12 +24,26 @@ namespace MantingalePrincipleRulettesimulater
 
             if (IsOdd(RouletteNumber))
             {
+                return false;
+            }
+
+            else return true;
+        }
+
+        public bool betOdd(bool isbettingeven)
+        {
+
+            int RouletteNumber = getrouletenumber();
+
+            if (IsOdd(RouletteNumber))
+            {
                 return true;
             }
 
             else return false;
         }
         
+
 
 
         private static bool IsOdd(int value)
